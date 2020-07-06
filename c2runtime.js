@@ -23809,6 +23809,5 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.Every,
 	cr.behaviors.Flash.prototype.acts.Flash,
 	cr.plugins_.Audio.prototype.cnds.OnEnded,
-	cr.system_object.prototype.cnds.OnLayoutEnd,
-	cr.plugins_.Audio.prototype.acts.SetPaused
+	cr.plugins_.Audio.prototype.acts.StopAll
 ];};
